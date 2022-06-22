@@ -1,0 +1,79 @@
+## General (binary, generated, cache) files to ignore
+
+# compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# packages
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.bzip
+*.xz
+*.lzma
+
+# package managment formats
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+
+# databases
+*.sqlite
+
+# ignore logfiles
+*.log*
+
+# OS dependant files
+.DS_Store
+.Spotlight-V100
+.Trashes
+Desktop.ini
+*~
+# Thumbnails
+Thumbs.db
+._*
+
+# temp-files
+.$*
+*~$*
+
+
+## Specific files to ignore (IDE, Project, ...); can override generally ignored files.
+
+# InelliJ IDEA files
+*.iml
+*.ipr
+*.ids
+*.iws
+.idea/
+
+# Eclipse files
+.project
+.metadata
+.classpath
+.settings/
+.loadpath
+bin/
+
+# Netbeans
+nbactions.xml
+
+# Visual Studio Code
+.vscode
+
+# Maven
+target/
+
+# gradle files (except wrapper jar)
+.gradle/
+build/
+!gradle-wrapper.jar
